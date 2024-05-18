@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+ {% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Отзывы-Чёрная-Жемчужина</title>
+    <style>
+        body{background-image: url('https://kartinki.pics/uploads/posts/2021-07/thumbs/1626140047_50-kartinkin-com-p-chernoe-derevo-tekstura-besshovnaya-krasiv-54.jpg');
+}
+    .body-background {
+    background-image: url('https://img.freepik.com/premium-photo/white-craft-paper-texture-background_485324-763.jpg');
+    margin: 30px 90px 30px;}
+
+    p { font-family: Montserrat; font-weight: 500; font-size: 16px; margin: 20px 50px 20px 50px; }
+    h1 { font-family: Montserrat; font-weight: 500;text-align: center; font-size: 36px; }
+.line {
+    border-bottom: 1px solid black; /* Параметры линии */
+   }
+.text1{border:3px white  solid; width:620px; padding-left: 670px; position: absolute;}
+  </style>
+</head>
+<body>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')
+</style>
+{% include 'navigate.html' %}
+{% block menu %}
+{% endblock %}
+<div class = body-background>
+<br>
+  <h1>Оставить отзыв</h1>
+    <div  class="text1">
+    <p align="justify">Уважаемые посетители ресторана «Черная Жемчужина»! Мы ценим ваше мнение и хотим улучшить качество нашего сервиса. Пожалуйста, оставьте отзыв о своем опыте пребывания у нас в ресторане. Ваш отзыв поможет нам стать еще лучше и повысить качество обслуживание для вас и других гостей.</p>
+
+<p align="justify">Мы благодарны вам за ваше время и усилия, и гарантируем, что все отзывы будут тщательно изучены нашим командой. Ваш вклад в развитие ресторана «Чёрная Жемчужина» чрезвычайно важен для нас.</p>
+
+<p align="justify">Спасибо за вашу поддержку и доверие!</p>
+        </div>
+    <center>
+<div style="width:600px;height:500px;overflow:hidden;position:relative; padding-right: 600px;"><iframe style="width:100%;height:100%;border:1px solid #e6e6e6;border-radius:8px;box-sizing:border-box" src="https://yandex.ru/maps-reviews-widget/1115322024?comments"></iframe><a href="https://yandex.ru/maps/org/chernaya_zhemchuzhina/1115322024/" target="_blank" style="box-sizing:border-box;text-decoration:none;color:#b3b3b3;font-size:10px;font-family:YS Text,sans-serif;padding:0 20px;position:absolute;bottom:8px;width:100%;text-align:center;left:0;overflow:hidden;text-overflow:ellipsis;display:block;max-height:14px;white-space:nowrap;padding:0 16px;box-sizing:border-box">Черная жемчужина на карте Королёва — Яндекс Карты</a></div>
+</center>
+
+<br></br>
+    <div class="line"></div>
+    <center>
+<p class="par" ><strong>Кафе Клуб "Черная Жемчужина" &copy; 2006 - 2024</strong><br />
+    <span class="mon"><strong>Наш адрес:</strong></span> Московская область, г.Королев, ул.Коммунальная, д.16.<br />
+<span class="mon"><strong>Мы работаем:</strong></span> ежедневно с 12:00 до 24:00<br />
+<span class="mon"><strong>Телефоны:</strong></span><strong> 8 (495) 516-20-63 / 8 (925) 343-20-63</strong><br />
+<span class="mon">E-mail:</span> 84955162063@mail.ru<br />
+<span class="mon">Наши социальные сети:</span> <strong></strong></p><a href="https://t.me/kafekorolev">
+  <img src="{% static 'tg.png' %}"
+       width="30" height="30"></a>
+    <a href="">
+  <img src="{% static 'vk.png' %}"
+       width="30" height="30" ></a>
+    <a href="">
+  <img src="{% static 'whatsapp.png' %}"
+       width="30" height="30" ></a>
+</center>
+    <br></br>
+
+</div>
+
+</body>
+</html>

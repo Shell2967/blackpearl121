@@ -1,0 +1,98 @@
+ <!DOCTYPE html>
+ {% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Связь-Чёрная-Жемчужина</title>
+	<style>
+        body{background-image: url('https://kartinki.pics/uploads/posts/2021-07/thumbs/1626140047_50-kartinkin-com-p-chernoe-derevo-tekstura-besshovnaya-krasiv-54.jpg');
+}
+    .body-background {
+    background-image: url('https://img.freepik.com/premium-photo/white-craft-paper-texture-background_485324-763.jpg');
+    margin: 30px 90px 30px;}
+
+    p { font-family: Montserrat; font-weight: 500; font-size: 16px; margin: 20px 50px 20px 50px; }
+    h1 { font-family: Montserrat; font-weight: 500; text-align: center; font-size: 36px; }
+    .contact{ position: absolute; font-family: Montserrat; font-weight: 500;  font-size: 30px; padding-left: 250px; padding-bottom: 60px; }
+    .map{ position: absolute; font-family: Montserrat; font-weight: 500;  font-size: 30px; padding-left: 850px; padding-bottom: 60px; }
+        .container{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 300px;
+        position: absolute;
+        padding-left: 500px;
+        padding-top: 100px;
+        }
+
+
+        .line {
+    border-bottom: 1px solid black; /* Параметры линии */
+   }
+        .text1{border:3px white  solid; width:620px;padding-right: 65px; }
+.mapping{
+        padding-left: 650px;
+        padding-bottom: 0px;
+        }
+
+  </style>
+</head>
+<body>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')
+</style>
+{% include 'navigate.html' %}
+{% block menu %}
+{% endblock %}
+
+<div class = body-background>
+    <div class="container">
+    <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/org/chernaya_zhemchuzhina/1115322024/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Черная жемчужина</a><a href="https://yandex.ru/maps/20728/korolev/category/restaurant/184106394/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Ресторан в Королёве</a><a href="https://yandex.ru/maps/20728/korolev/category/banquet_hall/184108315/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:28px;">Банкетный зал в Королёве</a><iframe src="https://yandex.ru/map-widget/v1/?ll=37.851586%2C55.916309&mode=search&oid=1115322024&ol=biz&z=14" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+</div>
+    <br>
+    <div class="inv">
+<h2 class="map">Ресторан на карте</h2><h2 class="contact">Контакты</h2>
+<br></br>
+    <p class="par" ><br />
+    <span class="mon"><strong>Наш адрес:</strong></span> Московская область, г.Королев, ул.Коммунальная, д.16.<br />
+<span class="mon"><strong>Мы работаем:</strong></span> ежедневно с 12:00 до 24:00<br />
+<span class="mon"><strong>Телефоны:</strong></span><strong> 8 (495) 516-20-63 / 8 (925) 343-20-63</strong><br />
+<span class="mon">E-mail:</span> 84955162063@mail.ru<br />
+<span class="mon">Наш сайт:</span> <strong>www.BlackPearlKorolev.ru</strong></p>
+
+    <p  class="text1" align="justify">Ресторан "Черная Жемчужина" пользуется заслуженной любовью своих постоянных посетителей. У нас празднуют шумные дни рождения и проводят первые свидания, отдыхают от городской суеты и пробуют восхитительные и оригинальные блюда. Наши гости ценят хорошее обслуживание, уникальный интерьер, красивую территорию, невысокие цены и дивное меню. Ресторан Черная Жемчужина очень удобно расположен в центре города Королева в отдельно стоящем здании и находится совсем недалеко от таких городов, как Юбилейный, Мытищи, Щелково, Ивантеевка и Пушкино. Всего через 10-20 минут езды вы можете окунуться в незабываемую атмосферу романтики и уюта, провести время в незабываемой обстановке.</p>
+
+
+        </div>
+<div class="line"></div>
+
+    <center>
+        <p class="par" ><strong>Кафе Клуб "Черная Жемчужина" &copy; 2006 - 2024</strong><br />
+    <span class="mon"><strong>Наш адрес:</strong></span> Московская область, г.Королев, ул.Коммунальная, д.16.<br />
+<span class="mon"><strong>Мы работаем:</strong></span> ежедневно с 12:00 до 24:00<br />
+<span class="mon"><strong>Телефоны:</strong></span><strong> 8 (495) 516-20-63 / 8 (925) 343-20-63</strong><br />
+<span class="mon">E-mail:</span> 84955162063@mail.ru<br />
+<span class="mon">Наши социальные сети:</span> <strong></strong></p><a href="https://t.me/kafekorolev">
+  <img src="{% static 'tg.png' %}"
+       width="30" height="30"></a>
+
+    <a href="">
+  <img src="{% static 'vk.png' %}"
+       width="30" height="30" ></a>
+
+    <a href="">
+  <img src="{% static 'whatsapp.png' %}"
+       width="30" height="30" ></a>
+</center>
+    <br></br>
+
+</div>
+
+</body>
+</html>
